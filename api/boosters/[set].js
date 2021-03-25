@@ -1,18 +1,14 @@
-const Koa = require('koa');
-const Router = require('@koa/router');
 const { default: axios } = require('axios');
 const uniqid = require('uniqid');
-
-const app = new Koa();
-const router = new Router({ prefix: '/api' });
 
 const PACK_URL = 'https://fabdb.net/api/packs/generate';
 
 console.log('starting FAB Booster/Sealed Server');
 
-router.get('boosters', '/:set/boosters/:number', async (ctx, next) => {
-  // ctx.router available
-  const { set, number } = ctx.params;
+module.exports = (req, res) => {
+  const { set } = req.query;
+  const { number } = req.params;
+
   const packs = await Promise.all(
     [...Array(parseInt(number, 10)).keys()].map(
       async () =>
@@ -21,7 +17,7 @@ router.get('boosters', '/:set/boosters/:number', async (ctx, next) => {
     ),
   );
   const slug = uniqid.time();
-  ctx.body = {
+  const body = {
     cardBack: 1,
     creadedAt: new Date().toISOString(),
     format: 'boosters',
@@ -32,10 +28,6 @@ router.get('boosters', '/:set/boosters/:number', async (ctx, next) => {
     visibility: 'private',
     cards: packs.reduce((deck, booster) => [...deck, ...booster], []),
   };
-});
 
-app.use(router.routes()).use(router.allowedMethods());
-
-app.listen(3000);
-
-console.log('--- Listening on port 3000');
+  res.json(body);
+};
