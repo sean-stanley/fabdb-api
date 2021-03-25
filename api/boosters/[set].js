@@ -24,6 +24,9 @@ module.exports = async (req, res) => {
       .map((card) => ({
         id: cardCodeRegex.exec(card.image)[0],
       })),
+    weapons: [],
+    equipment: [],
+    sideboard: [],
   };
 
   res.json(body);
