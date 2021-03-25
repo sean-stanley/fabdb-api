@@ -5,10 +5,8 @@ const PACK_URL = 'https://fabdb.net/api/packs/generate';
 
 console.log('starting FAB Booster/Sealed Server');
 
-module.exports = (req, res) => {
-  const { set } = req.query;
-  const { number } = req.params;
-
+module.exports = async (req, res) => {
+  const { set, number } = req.query;
   const packs = await Promise.all(
     [...Array(parseInt(number, 10)).keys()].map(
       async () =>
