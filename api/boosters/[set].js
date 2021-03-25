@@ -1,9 +1,10 @@
 const { default: axios } = require('axios');
-const uniqid = require('uniqid');
 
 const PACK_URL = 'https://fabdb.net/api/packs/generate';
 
 console.log('starting FAB Booster/Sealed Server');
+
+const cardCodeRegex = /[A-Z]{3}\d{3}/;
 
 module.exports = async (req, res) => {
   const { set, number } = req.query;
@@ -14,17 +15,16 @@ module.exports = async (req, res) => {
         (await axios.get(PACK_URL, { params: { set } })).data,
     ),
   );
-  const slug = uniqid.time();
+
   const body = {
-    cardBack: 1,
-    creadedAt: new Date().toISOString(),
-    format: 'boosters',
-    name: `${number} Booster(s) of ${set.toUpperCase()}`,
-    notes: null,
-    parentId: null,
-    slug,
+    hero: 'Dash',
+    hero_id: 'ARC002',
     visibility: 'private',
-    cards: packs.reduce((deck, booster) => [...deck, ...booster], []),
+    maindeck: packs
+      .reduce((deck, booster) => [...deck, ...booster], [])
+      .map((card) => ({
+        id: cardCodeRegex.exec(card.image)[0],
+      })),
   };
 
   res.json(body);

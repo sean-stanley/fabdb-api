@@ -1,0 +1,963 @@
+{
+  "parentId": null,
+  "slug": "axMrLWOb",
+  "name": "Pro Rhinar CC",
+  "format": "constructed",
+  "useCollection": false,
+  "notes": null,
+  "visibility": "private",
+  "cardBack": 1,
+  "createdAt": "2021-01-09T01:55:26.000000Z",
+  "totalVotes": 0,
+  "myVote": 0,
+  "cards": [
+    {
+      "identifier": "alpha-rampage-red",
+      "name": "Alpha Rampage",
+      "rarity": "M",
+      "stats": { "cost": "3", "attack": "9", "defense": "3", "resource": "1" },
+      "text": "**Rhinar Specialization** *(You may only have Alpha Rampage in your deck if your hero is Rhinar.)*\n\nAs an additional cost to play Alpha Rampage, discard a random card.\n\n**Intimidate**",
+      "keywords": ["brute", "attack", "action"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "The player who owns the banished card may look at it.\nThe card banished from intimidate is returned to hand at the beginning of the end phase. This is before players draw up to hand size.\nYou may target yourself with this ability. However you will receive the card back into your hand before drawing up to your hand size.\nYou may target a hero with no cards in hand.\nIf there are other banished cards that aren\u2019t from intimidate, it is encouraged to keep intimidated cards seperate from these cards.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 6, "ruling_id": 197 }
+        },
+        {
+          "description": "You may only play Alpha Rampage in your deck if your hero is Rhinar, Reckless Rampage or Rhinar (young hero).\r\nYou must have at least one other card in your hand to pay for the additional cost at the time you play Alpha Rampage.\r\nThe player who owns the banished face down card is allowed to look at it.\r\nThe card banished from intimidate is returned to hand at the beginning of the end phase. This is before players draw up to hand size.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:46:00.000000Z",
+          "updatedAt": "2020-08-11T04:46:00.000000Z",
+          "pivot": { "card_id": 6, "ruling_id": 238 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR006-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "arcanite-skullcap",
+      "name": "Arcanite Skullcap",
+      "rarity": "L",
+      "stats": { "defense": "1" },
+      "text": "If you have less [life] than your opponent, Arcanite Skullcap gains +1[defense] and **Arcane Barrier 3.** *(If your hero would be dealt arcane damage, you may pay [3 resource] instead. If you do, prevent 3 arcane damage that source would deal.)*",
+      "keywords": ["generic", "equipment", "head"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "You can have multiple instances of arcane barrier, for example Nullrune Hood, Nullrune Cloak, and Nullrune Gloves.\nArcane barrier can be used every time you would be dealt arcane damage. It's not limited to once per turn.\nEach instance of arcane barrier you control can be used 1 time only, each time a source would deal arcane damage to you. For example if a source would deal 5 arcane damage to you, and you control two cards with arcane barrier 1, you will in total be able to prevent 2 arcane damage this source would deal to you.\nTo fully prevent a card dealing 3 arcane damage, you would require 3 arcane barrier and 3 resources to prevent it. To fully prevent the arcane damage from 3 Runechant tokens (3 instances of 1 damage), you would require 1 arcane barrier and 3 resources to prevent it.\nA equipment with arcane barrier does not move to the chain when arcane barrier is used.\nYou can prevent arcane damage you would deal to yourself.\nPlayers cannot respond to the prevention. Arcane barrier is a replacement effect, not an activated or triggered ability.\nYou can only pay resources to arcane barrier if a source would deal arcane damage to you.\nPreventing arcane damage does not destroy the equipment with arcane barrier (unless otherwise specified).",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/arcane-rising/",
+          "createdAt": "2020-08-11T04:46:00.000000Z",
+          "updatedAt": "2020-08-11T04:46:00.000000Z",
+          "pivot": { "card_id": 424, "ruling_id": 290 }
+        },
+        {
+          "description": "You may have multiple instances of arcane barrier.\r\nYou must pay [3 resource] to prevent arcane damage even if only one point of arcane damage would be prevented.\r\nThe prevention does not carry over even if you only prevent one arcane damage.\r\nArcanite Skullcap always has battleworn, even if you are on higher or lower [life] than your opponent.\r\nArcanite Skullcap gains the bonus if there is at least one opponent on less [life]. If there are multiple opponents on less {h}, arcanite skullcap still only gains the bonus once.\r\nIf your [life] becomes higher or lower after defending but before damage calculation, the value of [defense] will change accordingly.",
+          "source": "",
+          "createdAt": "2020-08-11T04:46:00.000000Z",
+          "updatedAt": "2020-08-11T04:46:00.000000Z",
+          "pivot": { "card_id": 424, "ruling_id": 303 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/ARC150-CF.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "argh-smash-yellow",
+      "name": "ARGH... Smash!",
+      "rarity": "M",
+      "stats": { "cost": "3", "defense": "3", "resource": "2" },
+      "text": "Roll a 6 sided die. Destroy up to X items where X is half the number, rounded down.\n\n**Go again**",
+      "keywords": ["brute", "action"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/CRU009.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "awakening-bellow-blue",
+      "name": "Awakening Bellow",
+      "rarity": "C",
+      "stats": { "cost": "1", "defense": "3", "resource": "3" },
+      "text": "The next Brute attack action card you play this turn gains +1[attack].\n\n**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owner's hand.)*\n\n**Go again**",
+      "keywords": ["brute", "action"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 34, "ruling_id": 196 }
+        },
+        {
+          "description": "The player who owns the banished card may look at it.\nThe card banished from intimidate is returned to hand at the beginning of the end phase. This is before players draw up to hand size.\nYou may target yourself with this ability. However you will receive the card back into your hand before drawing up to your hand size.\nYou may target a hero with no cards in hand.\nIf there are other banished cards that aren\u2019t from intimidate, it is encouraged to keep intimidated cards seperate from these cards.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 34, "ruling_id": 197 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR034-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "barraging-beatdown-red",
+      "name": "Barraging Beatdown",
+      "rarity": "R",
+      "stats": { "cost": "0", "defense": "3", "resource": "1" },
+      "text": "Your next Brute attack this turn gains \"If this attack is defended by less than 2 non-equipment cards, it gains +4[attack].\"\n\n**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owner's hand.)*\n\n**Go again**\n",
+      "keywords": ["brute", "action"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 17, "ruling_id": 196 }
+        },
+        {
+          "description": "The player who owns the banished card may look at it.\nThe card banished from intimidate is returned to hand at the beginning of the end phase. This is before players draw up to hand size.\nYou may target yourself with this ability. However you will receive the card back into your hand before drawing up to your hand size.\nYou may target a hero with no cards in hand.\nIf there are other banished cards that aren\u2019t from intimidate, it is encouraged to keep intimidated cards seperate from these cards.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 17, "ruling_id": 197 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR017-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "barraging-beatdown-yellow",
+      "name": "Barraging Beatdown",
+      "rarity": "R",
+      "stats": { "cost": "0", "defense": "3", "resource": "2" },
+      "text": "Your next Brute attack this turn gains \"If this attack is defended by less than 2 non-equipment cards, it gains +3[attack].\"\n\n**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owner's hand.)*\n\n**Go again**\n",
+      "keywords": ["brute", "action"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 18, "ruling_id": 196 }
+        },
+        {
+          "description": "The player who owns the banished card may look at it.\nThe card banished from intimidate is returned to hand at the beginning of the end phase. This is before players draw up to hand size.\nYou may target yourself with this ability. However you will receive the card back into your hand before drawing up to your hand size.\nYou may target a hero with no cards in hand.\nIf there are other banished cards that aren\u2019t from intimidate, it is encouraged to keep intimidated cards seperate from these cards.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 18, "ruling_id": 197 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR018-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "barraging-beatdown-blue",
+      "name": "Barraging Beatdown",
+      "rarity": "R",
+      "stats": { "cost": "0", "defense": "3", "resource": "3" },
+      "text": "Your next Brute attack this turn gains \"If this attack is defended by less than 2 non-equipment cards, it gains +2[attack].\"\n\n**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owner's hand.)*\n\n**Go again**\n",
+      "keywords": ["brute", "action"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 19, "ruling_id": 196 }
+        },
+        {
+          "description": "The player who owns the banished card may look at it.\nThe card banished from intimidate is returned to hand at the beginning of the end phase. This is before players draw up to hand size.\nYou may target yourself with this ability. However you will receive the card back into your hand before drawing up to your hand size.\nYou may target a hero with no cards in hand.\nIf there are other banished cards that aren\u2019t from intimidate, it is encouraged to keep intimidated cards seperate from these cards.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 19, "ruling_id": 197 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR019-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "barraging-big-horn-yellow",
+      "name": "Barraging Big Horn",
+      "rarity": "R",
+      "stats": { "cost": "2", "attack": "6", "defense": "3", "resource": "2" },
+      "text": "As an additional cost to play Barraging Big Horn, discard a random card.\n\nWhile Barraging Big Horn is defended by less than 2 non-equipment cards, it has **go again**.",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "\"Big Horn? Big problem!\" - Togark",
+      "comments": "",
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/CRU011.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "beast-within-yellow",
+      "name": "Beast Within",
+      "rarity": "M",
+      "stats": { "cost": "3", "attack": "6", "defense": "3", "resource": "2" },
+      "text": "If Beast Within is put into a graveyard from anywhere other than the combat chain, banish the top card of your deck and lose 1[life]. If it has 6 or more [attack], put it into your hand, otherwise repeat this process.",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/CRU007.png?w=300&fit=clip&auto=compress",
+      "total": 2
+    },
+    {
+      "identifier": "bloodrush-bellow-yellow",
+      "name": "Bloodrush Bellow",
+      "rarity": "M",
+      "stats": { "cost": "1", "defense": "3", "resource": "2" },
+      "text": "As an additional cost to play Bloodrush Bellow, discard a random card.\n\nYour Brute attacks gain +2[attack] this turn.\n\nIf the discarded card has 6 or more [attack], draw 2 cards and Bloodrush Bellow gains **go again**",
+      "keywords": ["brute", "action"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 7, "ruling_id": 196 }
+        },
+        {
+          "description": "This checks the discarded card\u2019s base power. Effects that modify a card's power are not applied to a card discarded from hand.\r\nThis card only affects Brute attacks (Brute attack action cards or Brute weapon attacks). Generic attack actions do not benefit this.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:46:00.000000Z",
+          "updatedAt": "2020-08-11T04:46:00.000000Z",
+          "pivot": { "card_id": 7, "ruling_id": 241 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR007-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "breakneck-battery-red",
+      "name": "Breakneck Battery",
+      "rarity": "R",
+      "stats": { "cost": "2", "attack": "6", "defense": "3", "resource": "1" },
+      "text": "As an additional cost to play Breakneck Battery, discard a random card.\n\nIf the discarded card has 6 or more [attack], Breakneck Battery gains **go again**.",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 11, "ruling_id": 196 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR011-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "command-and-conquer-red",
+      "name": "Command and Conquer",
+      "rarity": "M",
+      "stats": { "cost": "2", "attack": "6", "defense": "3", "resource": "1" },
+      "text": "Defense reactions can't be played to Command and Conquers chain link.\n\nIf Command and Conquer hits a hero, destroy all cards in their arsenal.",
+      "keywords": ["generic", "action", "attack"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "The destroyed card is put into its owner\u2019s graveyard.\r\nChain link is different from combat chain. If another attack is played after Command and Conquer in the same combat chain, defense reactions can be played on that attack.",
+          "source": "",
+          "createdAt": "2020-08-11T04:46:00.000000Z",
+          "updatedAt": "2020-08-11T04:46:00.000000Z",
+          "pivot": { "card_id": 319, "ruling_id": 311 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/ARC159-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "energy-potion",
+      "name": "Energy Potion",
+      "rarity": "R",
+      "stats": { "cost": "0", "resource": "3" },
+      "text": "**Instant** - Destroy Energy Potion, gain [2 resource].",
+      "keywords": ["generic", "action", "item"],
+      "flavour": "Side effects may include agitation, confusion, aggression, tachycardia, fever and delirium.",
+      "comments": null,
+      "banned": false,
+      "rulings": [
+        {
+          "description": "Energy Potion requires an action point to play as it is an action.\nEnergy Potion has sub-type Item, which means it stays in the arena until it is destroyed.\nYou may not defend with Energy Potion as it does not have a defense value.\nYou may use Energy Potion\u2019s ability even when you are not spending any of the resources gained by it.\nEnergy Potion\u2019s activated ability is an instant. You may activate it any time you have priority, including during an opponent\u2019s turn, and during the reaction window of either player\u2019s turn.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 170, "ruling_id": 216 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR170-RF.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "fyendals-spring-tunic",
+      "name": "Fyendal's Spring Tunic",
+      "rarity": "L",
+      "stats": { "defense": "1" },
+      "text": "At the start of your turn, if Fyendal's Spring Tunic has less than 3 energy counters, you may put an energy counter on it.\n\n**Instant** - Remove 3 energy counters from Fyendal's Spring tunic: Gain [resource]\n\n**Blade Break** (If you defend with Fyendal's Spring tunic, destroy it when the combat chain closes.)",
+      "keywords": ["generic", "equipment", "chest"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When you defend with a card it remains on the combat chain until the chain closes, therefore you cannot defend with an equipment multiple times on the same combat chain.\nWhen this card is destroyed, it is sent to your graveyard.\nThe ability goes on the stack when the combat chain closes.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:58.000000Z",
+          "updatedAt": "2020-08-11T04:45:58.000000Z",
+          "pivot": { "card_id": 150, "ruling_id": 192 }
+        },
+        {
+          "description": "You cannot activate Fyendal\u2019s Spring Tunic during the start of the turn phase (in response to the trigger), because players do not get priority during the start of turn phase.\nYou must have at least 3 energy counters on Fyendal\u2019s Spring Tunic to use it\u2019s activated ability.\nFyendal\u2019s Spring Tunic\u2019s activated ability is an instant. You may activate it any time you have priority, including during an opponent\u2019s turn, and during the reaction window of either player\u2019s turn.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 150, "ruling_id": 207 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR150-CF.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "gamblers-gloves",
+      "name": "Gambler's Gloves",
+      "rarity": "M",
+      "stats": { "defense": "0" },
+      "text": "Whenever a hero rolls a 6-sided die, you may destroy Gambler's Gloves. If you do, that hero rerolls the die. *(You decide whether to use Gambler's Glove after seeing the result of the die roll.)*",
+      "keywords": ["generic", "equipment", "arms"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/CRU179.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "goliath-gauntlet",
+      "name": "Goliath Gauntlet",
+      "rarity": "C",
+      "stats": { "defense": "0" },
+      "text": "**Action** - Destroy Goliath Gauntlet: The next attack action card with cost [2 resource] or greater you play this turn gains +2[attack]. **Go again**",
+      "keywords": ["generic", "equipment", "arms"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 153, "ruling_id": 196 }
+        },
+        {
+          "description": "The attack action card does not gain go again. Goliath Gauntlet\u2019s activated ability requires an action point to use and provides an action point from go again upon resolution.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 153, "ruling_id": 208 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR153.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "last-ditch-effort-blue",
+      "name": "Last Ditch Effort",
+      "rarity": "S",
+      "stats": { "cost": "3", "attack": "4", "defense": "3", "resource": "3" },
+      "text": "When you play Last Ditch Effort, if you have no cards in your deck, it gains +4[attack] and **go again**.",
+      "keywords": ["generic", "action", "attack"],
+      "flavour": "For creatures that feed on fear, the moment of death is a veritable feast.",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 161, "ruling_id": 196 }
+        },
+        {
+          "description": "Last Ditch Effort checks how many cards are in your deck at the time you play it. If after you play it your deck\u2019s size changes, the stats and go again applied to Last Ditch Effort would still remain.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 161, "ruling_id": 220 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR161-RF.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "massacre-red",
+      "name": "Massacre",
+      "rarity": "M",
+      "stats": { "cost": "3", "attack": "6", "defense": "3", "resource": "1" },
+      "text": "If you have discarded a card with 6 or more [attack] this turn, Massacre gains +2[attack] and **intimidate**.\n\nIf Massacre is discarded to pay the cost of a Brute attack action card, **intimidate**.",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/CRU008.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "nullrune-gloves",
+      "name": "Nullrune Gloves",
+      "rarity": "C",
+      "stats": { "defense": "0" },
+      "text": "**Arcane Barrier 1** (If your hero would be dealt arcane damage, you may pay [resource] instead. If you do, prevent 1 arcane damage that source would deal.",
+      "keywords": ["generic", "equipment", "arms"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "You can have multiple instances of arcane barrier, for example Nullrune Hood, Nullrune Cloak, and Nullrune Gloves.\nArcane barrier can be used every time you would be dealt arcane damage. It's not limited to once per turn.\nEach instance of arcane barrier you control can be used 1 time only, each time a source would deal arcane damage to you. For example if a source would deal 5 arcane damage to you, and you control two cards with arcane barrier 1, you will in total be able to prevent 2 arcane damage this source would deal to you.\nTo fully prevent a card dealing 3 arcane damage, you would require 3 arcane barrier and 3 resources to prevent it. To fully prevent the arcane damage from 3 Runechant tokens (3 instances of 1 damage), you would require 1 arcane barrier and 3 resources to prevent it.\nA equipment with arcane barrier does not move to the chain when arcane barrier is used.\nYou can prevent arcane damage you would deal to yourself.\nPlayers cannot respond to the prevention. Arcane barrier is a replacement effect, not an activated or triggered ability.\nYou can only pay resources to arcane barrier if a source would deal arcane damage to you.\nPreventing arcane damage does not destroy the equipment with arcane barrier (unless otherwise specified).",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/arcane-rising/",
+          "createdAt": "2020-08-11T04:46:00.000000Z",
+          "updatedAt": "2020-08-11T04:46:00.000000Z",
+          "pivot": { "card_id": 252, "ruling_id": 290 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/ARC157-CF.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "nullrune-robe",
+      "name": "Nullrune Robe",
+      "rarity": "C",
+      "stats": { "defense": "0" },
+      "text": "**Arcane Barrier 1** (If your hero would be dealt arcane damage, you may pay [resource] instead. If you do, prevent 1 arcane damage that source would deal.",
+      "keywords": ["generic", "equipment", "chest"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "You can have multiple instances of arcane barrier, for example Nullrune Hood, Nullrune Cloak, and Nullrune Gloves.\nArcane barrier can be used every time you would be dealt arcane damage. It's not limited to once per turn.\nEach instance of arcane barrier you control can be used 1 time only, each time a source would deal arcane damage to you. For example if a source would deal 5 arcane damage to you, and you control two cards with arcane barrier 1, you will in total be able to prevent 2 arcane damage this source would deal to you.\nTo fully prevent a card dealing 3 arcane damage, you would require 3 arcane barrier and 3 resources to prevent it. To fully prevent the arcane damage from 3 Runechant tokens (3 instances of 1 damage), you would require 1 arcane barrier and 3 resources to prevent it.\nA equipment with arcane barrier does not move to the chain when arcane barrier is used.\nYou can prevent arcane damage you would deal to yourself.\nPlayers cannot respond to the prevention. Arcane barrier is a replacement effect, not an activated or triggered ability.\nYou can only pay resources to arcane barrier if a source would deal arcane damage to you.\nPreventing arcane damage does not destroy the equipment with arcane barrier (unless otherwise specified).",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/arcane-rising/",
+          "createdAt": "2020-08-11T04:46:00.000000Z",
+          "updatedAt": "2020-08-11T04:46:00.000000Z",
+          "pivot": { "card_id": 251, "ruling_id": 290 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/ARC156-CF.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "pack-hunt-red",
+      "name": "Pack Hunt",
+      "rarity": "C",
+      "stats": { "cost": "2", "attack": "6", "defense": "3", "resource": "1" },
+      "text": "**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owner's hand.",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "Horrific beasts lurk within the shadows, their gaping maws dripping with blood.",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "The player who owns the banished card may look at it.\nThe card banished from intimidate is returned to hand at the beginning of the end phase. This is before players draw up to hand size.\nYou may target yourself with this ability. However you will receive the card back into your hand before drawing up to your hand size.\nYou may target a hero with no cards in hand.\nIf there are other banished cards that aren\u2019t from intimidate, it is encouraged to keep intimidated cards seperate from these cards.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 23, "ruling_id": 197 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR023-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "primeval-bellow-red",
+      "name": "Primeval Bellow",
+      "rarity": "C",
+      "stats": { "cost": "0", "defense": "3", "resource": "1" },
+      "text": "As an additional cost to play Primeval Bellow, discard a random card.\n\nYour next brute attack this turn gains +5[attack].\n\n**Go again**",
+      "keywords": ["brute", "action"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 35, "ruling_id": 196 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR035-RF.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "pummel-yellow",
+      "name": "Pummel",
+      "rarity": "C",
+      "stats": { "cost": "2", "defense": "2", "resource": "2" },
+      "text": "Choose 1;\n\n* Target club or hammer attack gains +3[attack].\n* Target attack action card with cost [2 resource] or greater gains +3[attack] and \"If this hits, the defending hero discards a card.\"",
+      "keywords": ["generic", "attack", "reaction"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "You cannot play Pummel if there is not a legal target.\r\nYou cannot target a weapon, only a weapon attack.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 207, "ruling_id": 224 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR207-RF.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "reckless-swing-blue",
+      "name": "Reckless Swing",
+      "rarity": "S",
+      "stats": { "cost": "0", "defense": "4", "resource": "3" },
+      "text": "As an additional cost to play Reckless Swing, discard a random card.\n\nIf the discarded card has 6 or more [attack], deal 2 damage to the attacking hero.",
+      "keywords": ["brute", "defense", "reaction"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "You must have at least one other card in your hand to pay for the additional cost at the time you play Reckless Swing.\r\nThis checks the discarded card\u2019s base power. Effects that modify a card's power are not applied to a card discarded from hand.\r\nThe damage cannot be blocked but it can be prevented by a prevention effect.\r\nYou can only pitch when there is a cost to pay. You cannot pitch a card to play Reckless Swing.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:46:00.000000Z",
+          "updatedAt": "2020-08-11T04:46:00.000000Z",
+          "pivot": { "card_id": 8, "ruling_id": 246 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR008-RF.png?w=300&fit=clip&auto=compress",
+      "total": 2
+    },
+    {
+      "identifier": "remembrance-yellow",
+      "name": "Remembrance",
+      "rarity": "S",
+      "stats": { "cost": "0", "resource": "2" },
+      "text": "Shufle up to 3 action cards from your graveyard into your deck.\n\nBanish Remembrance.",
+      "keywords": ["generic", "instant"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "You may not defend with Remembrance as it does not have a defense value.\r\nYou may shuffle 0, 1, 2 or 3 action cards from your graveyard into your deck.\r\nYou are not required to announce your choices until the card resolves.\r\nYou may only shuffle action cards from your graveyard into your deck. This includes attack actions. This excludes any card that is not an action such as equipment, resource, defense reaction, attack reaction and instant.\r\nRemembrance is an instant. You may play it anytime you have priority, including during an opponent\u2019s turn, and during the reaction window of either player\u2019s turn.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 163, "ruling_id": 227 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR163-RF.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "rhinar-reckless-rampage",
+      "name": "Rhinar, Reckless Rampage",
+      "rarity": "T",
+      "stats": { "life": "40", "intellect": "4" },
+      "text": "When you discard a card with 6 or more [attack] during your action phase, *intimidate*.",
+      "keywords": ["brute", "hero"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "The player who owns the banished card may look at it.\nThe card banished from intimidate is returned to hand at the beginning of the end phase. This is before players draw up to hand size.\nYou may target yourself with this ability. However you will receive the card back into your hand before drawing up to your hand size.\nYou may target a hero with no cards in hand.\nIf there are other banished cards that aren\u2019t from intimidate, it is encouraged to keep intimidated cards seperate from these cards.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 1, "ruling_id": 197 }
+        },
+        {
+          "description": "This checks the discarded card\u2019s base power. Effects that modify a card's power are not applied to a card discarded from hand.\nThe player who owns the card banished face down is allowed to look at it.\nThe card banished from intimidate is returned to hand at the beginning of the end phase. This is before players draw up to hand size.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 1, "ruling_id": 202 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR001.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "riled-up-yellow",
+      "name": "Riled Up",
+      "rarity": "C",
+      "stats": { "cost": "3", "attack": "6", "defense": "3", "resource": "2" },
+      "text": "If you have discarded a card with 6 or more [attack] this turn, Riled Up gains +1[attack].",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "When word of war reached the Rek'vas Bloodboars, they were struck with fear... fear of missing out!",
+      "comments": "",
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/CRU017.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "romping-club",
+      "name": "Romping Club",
+      "rarity": "T",
+      "stats": { "attack": "4" },
+      "text": "**Once per turn Action** - [2 resource]: **Attack**\n\n**Once per Turn Effect** - When you discard a card with 6 or more [attack], Romping Club gains +1[attack] until end of turn.",
+      "keywords": ["brute", "weapon", "club", "2h"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "This checks the discarded card\u2019s base power. Effects that modify a card's power are not applied to a card discarded from hand.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 3, "ruling_id": 206 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR003.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "sand-sketched-plan-blue",
+      "name": "Sand Sketched Plan",
+      "rarity": "S",
+      "stats": { "cost": "0", "defense": "3", "resource": "3" },
+      "text": "**Rhinar Specialization** *(You may only have Sand Sketched Plan in your deck if your hero is Rhinar.)*\n\nSearch your deck for a card, put it into your hand, discard a random card, then shuffle your deck.\n\nIf the discarded card has 6 or more [attack], gain 2 action points.",
+      "keywords": ["brute", "action"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "You may only play Sand Sketched Plan in your deck if your hero is Rhinar, Reckless Rampage or Rhinar (young hero).\r\nThis checks the discarded card\u2019s base power. Effects that modify a card's power are not applied to a card discarded from hand.\r\nYou may elect not to put a card into your hand, you still must discard and shuffle your deck after.\r\nYou can only pitch when there is a cost to pay. You cannot pitch a card to cast Sand Sketched Plan.\r\nSand Sketched Plan does not have go again. If you don\u2019t discard a card with 6 or more power from its effect, your action phase will end unless you had two or more action points before playing Sand Sketched Plan.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:46:00.000000Z",
+          "updatedAt": "2020-08-11T04:46:00.000000Z",
+          "pivot": { "card_id": 9, "ruling_id": 247 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR009-RF.png?w=300&fit=clip&auto=compress",
+      "total": 2
+    },
+    {
+      "identifier": "savage-feast-red",
+      "name": "Savage Feast",
+      "rarity": "R",
+      "stats": { "cost": "1", "attack": "6", "defense": "3", "resource": "1" },
+      "text": "As an additional cost to play Savage Feast, discard a random card.\n\nIf the discarded card has 6 or more [attack], Savage Feast gains **go again**.",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When an action with go again resolves, its controller gains 1 action point.\nMultiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 14, "ruling_id": 196 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR014-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "savage-swing-yellow",
+      "name": "Savage Swing",
+      "rarity": "C",
+      "stats": { "cost": "1", "attack": "6", "defense": "3", "resource": "2" },
+      "text": "As an additional cost to play Savage Swing, discard a random card.",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "\"I should have listened - no amount of money is worth coming to this retched place.\"",
+      "comments": "",
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR021-RF.png?w=300&fit=clip&auto=compress",
+      "total": 2
+    },
+    {
+      "identifier": "scabskin-leathers",
+      "name": "Scabskin Leathers",
+      "rarity": "L",
+      "stats": { "defense": "2" },
+      "text": "**Once per Turn Action** - 0: Roll a 6 sided die. Gain action points equal to half the number roll, rounded down.\n\n**Battleworn** *(If you defend with Scabskin Leathers, put a -1[defense] counter on it when the combat chain closes.)*",
+      "keywords": ["brute", "equipment", "legs"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "When you defend with a card it remains on the combat chain until the chain closes, therefore you cannot defend with an equipment multiple times on the same combat chain.\nA [-1 defense] counter stays on the card until the card is destroyed or the game ends.\nIf the defense of a card that is defending is below zero, calculate as if its defense is zero.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:58.000000Z",
+          "updatedAt": "2020-08-11T04:45:58.000000Z",
+          "pivot": { "card_id": 4, "ruling_id": 191 }
+        },
+        {
+          "description": "If the number rolled is 1, no action points would be gained.\r\nScabskin Leathers requires an action point to use.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:46:00.000000Z",
+          "updatedAt": "2020-08-11T04:46:00.000000Z",
+          "pivot": { "card_id": 4, "ruling_id": 237 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR004-CF.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "sink-below-red",
+      "name": "Sink Below",
+      "rarity": "C",
+      "stats": { "cost": "0", "defense": "4", "resource": "1" },
+      "text": "You may put a card from your hand on the bottom of your deck. If you do, draw a card.",
+      "keywords": ["generic", "defense", "reaction"],
+      "flavour": "Those blessed with Aether have an incredible gift - the power to shape the fabric of reality.",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "Sink Below can only be played in the reaction window.\r\nYou must resolve Sink Below\u2019s ability before deciding if you are defending with any additional cards in the reaction window.\r\nYou cannot use Sink Below\u2019s ability if you have no other cards in your hand. You only draw a card if you put a card from your hand on the bottom of your deck.\r\nSink Below\u2019s effect is optional. You may still play Sink Below if you have no other cards in your hand.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 215, "ruling_id": 230 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR215-RF.png?w=300&fit=clip&auto=compress",
+      "total": 2
+    },
+    {
+      "identifier": "skullhorn",
+      "name": "Skullhorn",
+      "rarity": "M",
+      "stats": { "defense": "0" },
+      "text": "**Action** - Destroy Skullhorn: Draw a card then discard a random card. **Go again**\n\n**Arcane Barrier 2** *(If your hero would be dealt arcane damage, you may pay [2 resource] instead. If you do, prevent 2 arcane damage that source would deal.",
+      "keywords": ["brute", "equipment", "head"],
+      "flavour": "",
+      "comments": "",
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/CRU006.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "smash-instinct-yellow",
+      "name": "Smash Instinct",
+      "rarity": "C",
+      "stats": { "cost": "3", "attack": "6", "defense": "3", "resource": "2" },
+      "text": "**Intimidate** *(Target hero banishes face down a random card from their hand. At the beginning of the end phase, return all cards banished this way to their owner's hand.",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "Following one's instinct may be ill advised.",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "The player who owns the banished card may look at it.\nThe card banished from intimidate is returned to hand at the beginning of the end phase. This is before players draw up to hand size.\nYou may target yourself with this ability. However you will receive the card back into your hand before drawing up to your hand size.\nYou may target a hero with no cards in hand.\nIf there are other banished cards that aren\u2019t from intimidate, it is encouraged to keep intimidated cards seperate from these cards.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 27, "ruling_id": 197 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR027-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "springboard-somersault",
+      "name": "Springboard Somersault",
+      "rarity": "R",
+      "stats": { "cost": "0", "defense": "2", "resource": "2" },
+      "text": "If Springboard Somersault is played from arsenal, it gains +2[defense].",
+      "keywords": ["generic", "defense", "reaction"],
+      "flavour": null,
+      "comments": null,
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/CRU187-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "swing-fist-think-later-blue",
+      "name": "Swing Fist, Think Later",
+      "rarity": "C",
+      "stats": { "cost": "1", "attack": "2", "defense": "3", "resource": "3" },
+      "text": "As an additional cost to play Swing Fist, Think Later, discard a random card.\n\n**Go again**",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "\"Nobody says that about my Mama.\" - Thuk",
+      "comments": "",
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/CRU021.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "timesnap-potion",
+      "name": "Timesnap Potion",
+      "rarity": "R",
+      "stats": { "cost": "0", "resource": "3" },
+      "text": "**Action** - Destroy Timesnap Potion: Gain 2 action points.",
+      "keywords": ["generic", "action", "item"],
+      "flavour": "\"...and only a slight chance of temporal dissociation!\" - Lena-Belle",
+      "comments": null,
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR172-RF.png?w=300&fit=clip&auto=compress",
+      "total": 1
+    },
+    {
+      "identifier": "tome-of-fyendal-yellow",
+      "name": "Tome of Fyendal",
+      "rarity": "M",
+      "stats": { "cost": "1", "defense": "2", "resource": "2" },
+      "text": "Draw 2 cards.\n\nIf Tome of Fyendal is played from arsenal, gain 1[life] for each card in your hand.",
+      "keywords": ["generic", "action"],
+      "flavour": "Even the simplest recollection of the Old Ones holds immense power...",
+      "comments": null,
+      "banned": false,
+      "rulings": [
+        {
+          "description": "The green symbol of Tome of Fyendal is life.\r\nYou can exceed your starting life total. There is no maximum life total.\r\nIf you end the turn with more cards in hand than your hero\u2019s intellect, you do not discard to your hero\u2019s intellect (hand size). There is no maximum hand size",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 160, "ruling_id": 233 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR160-RF.png?w=300&fit=clip&auto=compress",
+      "total": 2
+    },
+    {
+      "identifier": "wrecker-romp-blue",
+      "name": "Wrecker Romp",
+      "rarity": "C",
+      "stats": { "cost": "2", "attack": "6", "defense": "3", "resource": "3" },
+      "text": "As an additional cost to play Wrecker Romp, discard a random card.",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "The savage rule of the jungle; only the strong survive.",
+      "comments": "",
+      "banned": false,
+      "rulings": [],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR031-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    },
+    {
+      "identifier": "wrecker-romp-yellow",
+      "name": "Wrecker Romp",
+      "rarity": "C",
+      "stats": { "cost": "2", "attack": "7", "defense": "3", "resource": "2" },
+      "text": "As an additional cost to play Wrecker Romp, discard a random card.",
+      "keywords": ["brute", "action", "attack"],
+      "flavour": "The savage rule of the jungle; only the strong survive.",
+      "comments": "",
+      "banned": false,
+      "rulings": [
+        {
+          "description": "The attack action does not gain go again. Bravo\u2019s activated ability requires an action point to use and provides an action point from go again upon resolution.",
+          "source": "https://fabtcg.com/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+          "createdAt": "2020-08-11T04:45:59.000000Z",
+          "updatedAt": "2020-08-11T04:45:59.000000Z",
+          "pivot": { "card_id": 30, "ruling_id": 199 }
+        }
+      ],
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR030-RF.png?w=300&fit=clip&auto=compress",
+      "total": 3
+    }
+  ],
+  "sideboard": [
+    {
+      "identifier": "argh-smash-yellow",
+      "cycle": "CRU",
+      "image": "https://fabdb2.imgix.net/cards/printings/CRU009.png?w=300&fit=clip&auto=compress",
+      "name": "ARGH... Smash!",
+      "rarity": "M",
+      "stats": { "cost": "3", "defense": "3", "resource": "2" },
+      "text": "Roll a 6 sided die. Destroy up to X items where X is half the number, rounded down.\n\n**Go again**",
+      "keywords": ["brute", "action"],
+      "flavour": "",
+      "comments": "",
+      "searchText": "CRU009 ARGH... Smash! Roll a 6 sided die. Destroy up to X items where X is half the number, rounded down.\n\n**Go again** brute action",
+      "total": 3
+    },
+    {
+      "identifier": "reckless-swing-blue",
+      "cycle": "WTR",
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR008-RF.png?w=300&fit=clip&auto=compress",
+      "name": "Reckless Swing",
+      "rarity": "S",
+      "stats": { "cost": "0", "defense": "4", "resource": "3" },
+      "text": "As an additional cost to play Reckless Swing, discard a random card.\n\nIf the discarded card has 6 or more [attack], deal 2 damage to the attacking hero.",
+      "keywords": ["brute", "defense", "reaction"],
+      "flavour": "",
+      "comments": "",
+      "searchText": "WTR008 Reckless Swing As an additional cost to play Reckless Swing, discard a random card.\n\nIf the discarded card has 6 or more [attack], deal 2 damage to the attacking hero. brute defense reaction",
+      "total": 2
+    },
+    {
+      "identifier": "sink-below-red",
+      "cycle": "WTR",
+      "image": "https://fabdb2.imgix.net/cards/printings/WTR215-RF.png?w=300&fit=clip&auto=compress",
+      "name": "Sink Below",
+      "rarity": "C",
+      "stats": { "cost": "0", "defense": "4", "resource": "1" },
+      "text": "You may put a card from your hand on the bottom of your deck. If you do, draw a card.",
+      "keywords": ["generic", "defense", "reaction"],
+      "flavour": "Those blessed with Aether have an incredible gift - the power to shape the fabric of reality.",
+      "comments": "",
+      "searchText": "WTR215 Sink Below You may put a card from your hand on the bottom of your deck. If you do, draw a card. generic defense reaction",
+      "total": 3
+    },
+    {
+      "identifier": "springboard-somersault",
+      "cycle": "CRU",
+      "image": "https://fabdb2.imgix.net/cards/printings/CRU187-RF.png?w=300&fit=clip&auto=compress",
+      "name": "Springboard Somersault",
+      "rarity": "R",
+      "stats": { "cost": "0", "defense": "2", "resource": "2" },
+      "text": "If Springboard Somersault is played from arsenal, it gains +2[defense].",
+      "keywords": ["generic", "defense", "reaction"],
+      "flavour": null,
+      "comments": null,
+      "searchText": "CRU187 Springboard Somersault If Springboard Somersault is played from arsenal, it gains +2[defense]. generic defense reaction",
+      "total": 3
+    }
+  ]
+}
