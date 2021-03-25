@@ -19,7 +19,6 @@ module.exports = async (req, res) => {
   const body = {
     hero: 'Dash',
     hero_id: 'ARC002',
-    visibility: 'private',
     maindeck: packs
       .reduce((deck, booster) => [...deck, ...booster], [])
       .map((card) => ({
