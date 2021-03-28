@@ -23,6 +23,7 @@ module.exports = async (req, res) => {
       .reduce((deck, booster) => [...deck, ...booster], [])
       .map((card) => ({
         id: cardCodeRegex.exec(card.image)[0],
+        name: card.identifier,
       })),
     weapons: [],
     equipment: [],
