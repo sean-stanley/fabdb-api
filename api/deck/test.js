@@ -215,5 +215,5 @@ module.exports = async (req, res) => {
       },
     ],
   };
-  res.json(body);
+  res.text(JSON.stringify(body));
 };
