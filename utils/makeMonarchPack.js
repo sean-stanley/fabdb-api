@@ -35,7 +35,7 @@ const makeMonarchPack = () => {
     Math.floor(Math.random() * NON_RARE) === 0 ? null : selectCard(rares);
   // eslint-disable-next-line operator-linebreak
   rarePlus =
-    Math.floor(Math.random() * 10) > 6
+    Math.floor(Math.random() * 10) > 7
       ? selectCard(majesticWeapons)
       : selectCard(majestics);
 
