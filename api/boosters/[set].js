@@ -38,7 +38,6 @@ module.exports = async (req, res) => {
 
   // MONARCH RNG
   if (set === 'mon') {
-    console.log(makeMonarchPack);
     body.maindeck = [...Array(parseInt(number, 10)).keys()]
       .reduce((deck) => [...deck, ...makeMonarchPack()], [])
       .map((id) => ({ id, name: monarch[id].name }));
