@@ -1,6 +1,6 @@
 const { default: axios } = require('axios');
-const makeMonarchPack = require('../../utils/makeMonarchPack');
-const monarch = require('../../data/monarch');
+const { default: makeMonarchPack } = require('../../utils/makeMonarchPack');
+const { default: monarch } = require('../../data/monarch');
 
 const PACK_URL = 'https://fabdb.net/api/packs/generate';
 
@@ -34,15 +34,15 @@ module.exports = async (req, res) => {
         id: cardCodeRegex.exec(card.image)[0],
         name: card.identifier,
       }));
-
-    res.json(body);
   }
 
   // MONARCH RNG
   if (set === 'mon') {
     console.log(makeMonarchPack);
     body.maindeck = [...Array(parseInt(number, 10)).keys()]
-      .reduce((deck) => [...deck, ...(makeMonarchPack() || [])], [])
+      .reduce((deck) => [...deck, ...makeMonarchPack()], [])
       .map((id) => ({ id, name: monarch[id].name }));
   }
+
+  res.json(body);
 };
