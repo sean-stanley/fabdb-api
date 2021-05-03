@@ -16,7 +16,8 @@ const {
  */
 const selectCard = (cards) => cards[Math.floor(Math.random() * cards.length)];
 
-// we used to have 5 legendaries in a set at 1:96 or 1:480 each. I'm assuming the 1:480 rules is consistent like it was with CRU
+// we used to have 5 legendaries in a set at 1:96 or 1:480 each.
+// I'm assuming the 1:480 rules is consistent like it was with CRU
 const LEG_RATE = 480;
 // taking the 1:480 rule again here but adjusting it for 5 possible common equipments.
 const FOIL_EQUIPMENT_RATE = 384;
@@ -29,6 +30,7 @@ const makeMonarchPack = () => {
   const rare = selectCard(rares);
   let token = [selectCard(tokens)];
   if (token[0] !== 'MON306') token = [...token, selectCard(tokens)];
+  // eslint-disable-next-line operator-linebreak
   let rarePlus =
     Math.floor(Math.random() * NON_RARE) === 0 ? null : selectCard(rares);
   // eslint-disable-next-line operator-linebreak
@@ -63,7 +65,7 @@ const makeMonarchPack = () => {
     foilOther,
   ][0];
 
-  const pack = [
+  return [
     ...common.slice(0, 8),
     equipment,
     rare,
@@ -72,8 +74,6 @@ const makeMonarchPack = () => {
     ...common.slice(8),
     ...token,
   ];
-
-  return pack;
 };
 
 export default makeMonarchPack;
