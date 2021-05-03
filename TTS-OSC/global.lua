@@ -1,7 +1,7 @@
 --[[
 
 Flesh and Blood: TCG
-Mod created by David Owens @ Owens Satisfactory Cards (satifsactorycards.com).
+Mod created by David Owens (owensd.io).
 Flesh and Blood was created by Legendary Story Studios, all rights reserved.
 
 Please support LSS buy purchasing the game. This mod is only to facilitate
@@ -15,14 +15,15 @@ Workshop ID: 2191845555
 -- Allows objects to become interactable that normally should not.
 dev_mode_enabled = false
 
+-- A set of object GUIDs that need to be referenced from the code.
 BACKGROUND_GUID = "a6a279"
 BACKDROP_GUID = "0ba6cc"
 DECKBUILDER_GUID = "6214a8"
-CHANGE_BACKDROP_GUID = "398730"
 SINGLE_PLAYER_MAT_BAG_GUID = "e0400a"
 PLAYER_MAT_GUID = "679cbe"
 
-initial_playmats = {"6d0275", "3da219"}
+-- NOTE: These can change if during development the layout changes.
+initial_playmats = {"8feea3", "d9516b"}
 
 mode_objects_to_cleanup = {}
 loaded_playmats = {}
@@ -39,14 +40,14 @@ allow_mat_selection = false
 layouts = {
   two = {
     table = {
-      guid = "a6a279",
+      guid = BACKGROUND_GUID,
       position = { x=0, y=0.9, z=0 },
       rotation = { x=0.00, y=180.00, z=0.00 },
       scale = { x=22, y=1, z=22 },
       snap_points = { row_offset = 0.456 },
     },
     deck_builder = {
-      guid = "6214a8",
+      guid = DECKBUILDER_GUID,
       position = { x=-26.40, y=1.00, z=0.00 },
       rotation = { x=0, y=90, z=0 },
       scale = { x=3, y=3, z=3 },
@@ -154,14 +155,14 @@ layouts = {
 
   four = {
     table = {
-      guid = "a6a279",
+      guid = BACKGROUND_GUID,
       position = { x=0, y=0.9, z=0 },
       rotation = { x=0.00, y=180.00, z=0.00 },
       scale = { x=22, y=1, z=22 },
       snap_points = { row_offset = 0.456 },
     },
     deck_builder = {
-      guid = "6214a8",
+      guid = DECKBUILDER_GUID,
       position = { x=-38, y=1.00, z=0.00 },
       rotation = { x=0, y=90, z=0 },
       scale = { x=3, y=1, z=3 },
@@ -285,7 +286,7 @@ layouts = {
   -- This layout assumes that mode 4 is also being used.
   eight = {
     table = {
-      guid = "a6a279",
+      guid = BACKGROUND_GUID,
       position = { x=81.5, y=0.9, z=0 },
       rotation = { x=0.00, y=180.00, z=0.00 },
       scale = { x=22, y=1, z=22 },
@@ -294,7 +295,7 @@ layouts = {
       is_table = true,
     },
     deck_builder = {
-      guid = "6214a8",
+      guid = DECKBUILDER_GUID,
       position = { x=43.50, y=1.00, z=0.00 },
       rotation = { x=0, y=90, z=0 },
       scale = { x=3, y=1, z=3 },
@@ -528,7 +529,7 @@ function changeMode(mode)
       ref.setScale(scale)
 
       if item.is_table then
-        ref.interactable = false
+        --ref.interactable = false
         table.insert(current_background_refs, ref)
       end
     end
