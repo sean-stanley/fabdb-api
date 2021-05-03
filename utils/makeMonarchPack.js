@@ -19,9 +19,8 @@ const selectCard = (cards) => cards[Math.floor(Math.random() * cards.length)];
 // we used to have 5 legendaries in a set at 1:96 or 1:480 each.
 // I'm assuming the 1:480 rules is consistent like it was with CRU
 const LEG_RATE = 480;
-// taking the 1:480 rule again here but adjusting it for 5 possible common equipments.
+// taking the 1:480 rule again here but adjusting it for the number of possible equipment/weapons.
 const FOIL_EQUIPMENT_RATE = 384;
-const MAG_WEAPON_RATE = 9;
 const NON_RARE = 4;
 
 const makeMonarchPack = () => {
@@ -34,21 +33,15 @@ const makeMonarchPack = () => {
   let rarePlus =
     Math.floor(Math.random() * NON_RARE) === 0 ? null : selectCard(rares);
   // eslint-disable-next-line operator-linebreak
-  rarePlus =
-    Math.floor(Math.random() * 10) > 7
-      ? selectCard(majesticWeapons)
-      : selectCard(majestics);
+  rarePlus = selectCard([...majestics, ...majestics, ...majesticWeapons]);
 
   const foilFabled = Math.random() < 1 / 960 ? fabled : [];
   const foilLegendary = legendaries.filter(
     () => !Math.floor(Math.random() * LEG_RATE),
   );
 
-  const foilEquipment = commonEquipment.filter(
+  const coldFoil = [...commonEquipment, ...majesticWeapons].filter(
     () => !Math.floor(Math.random() * FOIL_EQUIPMENT_RATE),
-  );
-  const foilMajesticWeapon = majesticWeapons.filter(
-    () => !Math.floor(Math.random() * MAG_WEAPON_RATE * 5),
   );
 
   const foilRoll = Math.random();
@@ -57,13 +50,7 @@ const makeMonarchPack = () => {
   else if (foilRoll < 11 / 13 + 1.75 / 13) foilOther = selectCard(rares);
   else foilOther = selectCard(majestics);
 
-  const foil = [
-    ...foilFabled,
-    ...foilLegendary,
-    ...foilMajesticWeapon,
-    ...foilEquipment,
-    foilOther,
-  ][0];
+  const foil = [...foilFabled, ...foilLegendary, ...coldFoil, foilOther][0];
 
   return [
     ...common.slice(0, 8),
