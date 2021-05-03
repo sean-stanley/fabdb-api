@@ -58,7 +58,7 @@ module.exports = async (req, res) => {
         count: 3,
       },
     ],
-    deck: [
+    maindeck: [
       {
         id: 'WTR006',
         name: 'Alpha Rampage',
