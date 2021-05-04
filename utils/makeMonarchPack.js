@@ -30,10 +30,11 @@ const makeMonarchPack = () => {
   let token = [selectCard(tokens)];
   if (token[0] !== 'MON306') token = [...token, selectCard(tokens)];
   // eslint-disable-next-line operator-linebreak
-  let rarePlus =
-    Math.floor(Math.random() * NON_RARE) === 0 ? null : selectCard(rares);
+  const rarePlus =
+    Math.floor(Math.random() * NON_RARE) === 0
+      ? selectCard([...majestics, ...majestics, ...majesticWeapons])
+      : selectCard(rares);
   // eslint-disable-next-line operator-linebreak
-  rarePlus = selectCard([...majestics, ...majestics, ...majesticWeapons]);
 
   const foilFabled = Math.random() < 1 / 960 ? fabled : [];
   const foilLegendary = legendaries.filter(
